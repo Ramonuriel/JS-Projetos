@@ -1,0 +1,19 @@
+html {
+  margin: 0%;
+  padding: 0%;
+  max-width: 1400px;
+  max-height: 700px;
+}
+
+.projeto {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  jus
+
+  width: 50%;
+  background-color: burlywood;
+  height: 400px;
+}

@@ -1,0 +1,1 @@
+var datav = document.querySelector
