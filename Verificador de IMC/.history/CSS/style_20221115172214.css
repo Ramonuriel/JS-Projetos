@@ -1,0 +1,25 @@
+html {
+  margin: 0%;
+  padding: 0%;
+  width: 1349px;
+}
+
+body {
+  background: rgb(45, 141, 231);
+  text-align: center;
+  justify-items: center;
+}
+.title {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px white;
+}
+
+.box {
+  width: 60%;
+  height: 400px;
+  background-color: blanchedalmond;
+}

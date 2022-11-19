@@ -1,0 +1,1 @@
+var altura = document.querySelector()
