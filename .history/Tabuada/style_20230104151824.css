@@ -1,0 +1,16 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.corpo {
+  display: inline-flex;
+  width: 50rem;
+  max-width: 80rem;
+  height: 20rem;
+  max-height: 40rem;
+  background-color: chartreuse;
+  justify-items: center;
+}

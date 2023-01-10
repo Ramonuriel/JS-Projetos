@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.corpo {
+  display: inline-flex;
+  width: 40rem;
+  max-width: 80rem;
+  height: 20rem;
+  max-height: 40rem;
+  background-color: chartreuse;
+  justify-items: center;
+}
+
+.conteudo {
+  display: inline-block;
+  justify-content: center;
+}

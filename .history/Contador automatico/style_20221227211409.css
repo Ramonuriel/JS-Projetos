@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.projeto {
+  display: inline-flex;
+  flex-direction: column;
+  width: 700px;
+  max-height: 100%;
+  background-color: brown;
+  align-items: left;
+  justify-content: start;
+  border-radius: 1000px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  margin-right: 80px;
+  margin-top: 30px;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+input {
+  width: 70%;
+}
+#Fim {
+  margin-left: 15px;
+}
+
+.btn {
+  margin-left: 322px;
+  width: 15%;
+  cursor: pointer;
+}

@@ -16,8 +16,20 @@ function contar() {
     let f = Number(fim.value)
     let p = Number(passo.value)
 
-    for (let c = i; c <= f; c += p) {
-      res.innerHTML += ` ${c} \u{1f449}, `
+    if (p <= 0) {
+      alert('Passo invalido')
+      res.innerHTML += 'Tente Novamente' 
+
+      }
+
+    if (i < f)
+      for (let c = i; c <= f; c += p) {
+        res.innerHTML += ` ${c} \u{1f449}, `
+      }
+    else {
+      for (let c = i; c >= f; c -= p) {
+        res.innerHTML += ` ${c} \u{1f449} `
+      }
     }
   }
 }

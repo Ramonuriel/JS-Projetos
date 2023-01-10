@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.corpo {
+  display: inline-flex;
+  flex-direction: column;
+  width: 30rem;
+  max-width: 80rem;
+  height: 20rem;
+  max-height: 40rem;
+  background-color: rgb(56, 11, 56);
+  justify-items: center;
+  border-radius: 20px;
+}
+
+p {
+  display: inline-flex;
+  margin-inline: 1rem;
+}
+p,
+h2,
+input {
+  color: white;
+  margin-right: 1rem;
+  background-color: rgb(56, 11, 56);
+  border-radius: 5px;
+}
+
+.btn {
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+}
+.conteudo {
+  margin-top: 4rem;
+  display: inline-flex;
+  align-items: baseline;
+}
+.resultado {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-left: 1.9rem;
+}
+
+#saida {
+  width: 5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  opacity: 0.7;
+}

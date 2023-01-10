@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.corpo {
+  display: inline-flex;
+  width: 40rem;
+  max-width: 80rem;
+  height: 20rem;
+  max-height: 40rem;
+  background-color: chartreuse;
+  justify-items: center;
+}
+
+p {
+  display: flex;
+  margin-right: ;
+}
+.conteudo {
+  margin-top: 4rem;
+  display: inline-flex;
+  align-items: baseline;
+}

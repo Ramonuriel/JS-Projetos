@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.corpo {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35rem;
+  max-width: 80rem;
+  height: 20rem;
+  max-height: 40rem;
+  background-color: rgb(56, 11, 56);
+  justify-items: center;
+}
+
+p {
+  display: inline-flex;
+  margin-inline: 1rem;
+}
+p,
+h2,
+input {
+  margin-right: 1rem;
+}
+.conteudo {
+  margin-top: 4rem;
+  display: inline-flex;
+  align-items: baseline;
+}
+.resultado{
+  display: ;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  opacity: 0.7;
+}
+
